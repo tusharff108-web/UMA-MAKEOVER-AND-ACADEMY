@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Uma Makeover & Academy | Premium Beauty Services & Academy</title>
+<meta name="description" content="Uma Makeover & Academy offers premier bridal makeovers, customized styling, advanced skincare treatments, and professional beauty certification courses.">
+
+<!-- Open Graph Metadata -->
+<meta property="og:title" content="Uma Makeover & Academy | Professional Beauty Services & Training">
+<meta property="og:description" content="Explore bespoke bridal makeup, high-end beauty treatments, and masterclass academy courses at Uma Makeover & Academy.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://www.dropbox.com/scl/fi/ovf34f2s7pq1p4fsjdrf5/entry.jpg?rlkey=3lvcfa2ybmjk0xt5ffach8w8v&st=k0tb5bt3&raw=1">
+
+<!-- JSON-LD Structured Data for Local Business & Education -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BeautySalon",
+  "name": "Uma Makeover & Academy",
+  "image": "https://www.dropbox.com/scl/fi/ovf34f2s7pq1p4fsjdrf5/entry.jpg?rlkey=3lvcfa2ybmjk0xt5ffach8w8v&st=k0tb5bt3&raw=1",
+  "description": "Professional beauty services, bridal makeup, and accredited beauty training courses.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Delhi",
+    "addressCountry": "IN"
+  },
+  "priceRange": "$$",
+  "telephone": "+91-9911138156",
+  "sameAs": [
+    "https://www.instagram.com/uma_makeover_and_academy_104",
+    "https://youtube.com/@umamakeoverandacademy"
+  ]
+}
+</script>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,600&display=swap" rel="stylesheet">
+
+<!-- External Stylesheet -->
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<!-- Scroll Progress Bar Indicator -->
+<div id="scroll-progress" role="progressbar" aria-label="Page reading progress"></div>
+
+<!-- Header / Navigation -->
+<header id="mainHeader">
+  <div class="nav">
+    <a href="#home" class="logo" aria-label="Uma Makeover & Academy Home">
+      <div class="logo-mark">UM</div>
+      <div class="logo-text"><strong>Uma Makeover</strong><span>& Academy</span></div>
+    </a>
+    
+    <nav aria-label="Main Navigation">
+      <ul id="navLinks">
+        <li><a href="#home" class="active" onclick="closeMenu()">Home</a></li>
+        <li><a href="#about" onclick="closeMenu()">About</a></li>
+        <li><a href="#services" onclick="closeMenu()">Services</a></li>
+        <li><a href="#social-hub" onclick="closeMenu()">Socials</a></li>
+        <li><a href="#gallery" onclick="closeMenu()">Gallery</a></li>
+        <li><a href="#academy" onclick="closeMenu()">Academy</a></li>
+        <li><a href="#contact" class="nav-btn" onclick="closeMenu()">Book Now</a></li>
+      </ul>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle Dark/Light Mode">🌙</button>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open Navigation Menu" onclick="toggleMenu()">☰</button>
+    </div>
+  </div>
+</header>
+
+<main>
+<!-- Hero Section -->
+<section id="home" class="hero">
+  <div class="hero-copy reveal">
+    <div class="eyebrow">Beauty • Style • Education</div>
+    <h1>Where Beauty Meets <em>Confidence.</em></h1>
+    <p>Welcome to Uma Makeover & Academy — your destination for luxury bridal makeovers, customized salon therapies, and hands-on professional beauty education.</p>
+    <div class="actions">
+      <a class="btn btn-primary" href="#contact">Book an Appointment ✦</a>
+      <a class="btn btn-outline" href="#social-hub">Watch Our Work</a>
+    </div>
+  </div>
+  <div class="hero-visual reveal">
+    <div class="hero-photo-wrap">
+      <div class="hero-photo" role="img" aria-label="Professional makeup look by Uma Makeover"></div>
+    </div>
+    <div class="floating float1">
+      <div class="stars">★★★★★</div>
+      <small>5.0 Certified Care</small>
+    </div>
+    <div class="floating float2">
+      <span>✨ Certified Master Artists</span>
+    </div>
+  </div>
+</section>
+
+<!-- Animated Statistics Bar -->
+<div class="container reveal">
+  <div class="stats-bar">
+    <div class="stat-item">
+      <div class="stat-number" data-target="1500">0</div>
+      <div class="stat-label">Happy Clients</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-number" data-target="450">0</div>
+      <div class="stat-label">Bridal Makeovers</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-number" data-target="320">0</div>
+      <div class="stat-label">Academy Graduates</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-number" data-target="8">0</div>
+      <div class="stat-label">Years of Excellence</div>
+    </div>
+  </div>
+</div>
+
+<!-- Social Hub: Instagram & YouTube Cards + Latest Video -->
+<section id="social-hub" class="social-hub">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">Follow & Watch Us</div>
+      <h2>Connect On Instagram & YouTube</h2>
+      <p>Stay up to date with our everyday bridal transformations, reel highlights, and in-depth academy video tutorials.</p>
+    </div>
+
+    <!-- Social Profile Cards -->
+    <div class="social-grid reveal">
+      <!-- Instagram Profile Card -->
+      <a href="https://www.instagram.com/uma_makeover_and_academy_104?utm_source=ig_web_button_share_sheet&igsi=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" class="social-profile-card insta-card">
+        <div class="card-top">
+          <img class="profile-avatar" src="https://www.dropbox.com/scl/fi/ovf34f2s7pq1p4fsjdrf5/entry.jpg?rlkey=3lvcfa2ybmjk0xt5ffach8w8v&st=k0tb5bt3&raw=1" alt="Uma Makeover Instagram Avatar">
+          <div class="profile-info">
+            <h3>Uma Makeover <span class="verified-badge">✓</span></h3>
+            <span class="profile-handle">@uma_makeover_and_academy_104</span>
+          </div>
+        </div>
+        <div class="card-mid">
+          <p>✨ Daily bridal reveals, step-by-step beauty tips, student practice sessions & viral transformation reels.</p>
+        </div>
+        <div class="social-action-btn">
+          <span>📷 Follow on Instagram</span>
+          <span>→</span>
+        </div>
+      </a>
+
+      <!-- YouTube Channel Card -->
+      <a href="https://youtube.com/@umamakeoverandacademy?si=cdeq-fgTTBvo14sQ" target="_blank" rel="noopener noreferrer" class="social-profile-card youtube-card">
+        <div class="card-top">
+          <img class="profile-avatar" src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=200&q=80" alt="Uma Makeover YouTube Avatar">
+          <div class="profile-info">
+            <h3>Uma Makeover & Academy <span class="verified-badge">✓</span></h3>
+            <span class="profile-handle">@umamakeoverandacademy</span>
+          </div>
+        </div>
+        <div class="card-mid">
+          <p>🎥 Masterclasses, bridal transformation master reels, quick brush cleaning hacks & student training guides.</p>
+        </div>
+        <div class="social-action-btn">
+          <span>▶ Subscribe on YouTube</span>
+          <span>→</span>
+        </div>
+      </a>
+    </div>
+
+    <!-- Latest Video Feature Card -->
+    <div class="video-showcase reveal">
+      <div class="video-player-wrap">
+        <iframe 
+          src="https://www.youtube-nocookie.com/embed/ZUZE400ye9o?rel=0" 
+          title="Latest YouTube Video | Uma Makeover & Academy" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          allowfullscreen>
+        </iframe>
+      </div>
+      <div class="video-details">
+        <div class="eyebrow" style="margin-bottom: 8px;">Featured Video</div>
+        <h3>Radha Look & Makeup Transformation</h3>
+        <p>Catch our festive makeup transformation session and professional aesthetic styling. Subscribe to our YouTube channel for complete training masterclasses.</p>
+        <div class="actions">
+          <a href="https://youtube.com/@umamakeoverandacademy?si=cdeq-fgTTBvo14sQ" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Watch More on YouTube →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="about">
+  <div class="container about-grid">
+    <div class="about-img reveal" role="img" aria-label="Uma Makeover Studio session"></div>
+    <div class="about-copy reveal">
+      <div class="eyebrow">About Uma Makeover</div>
+      <h3>Your beauty. Your style. Your confidence.</h3>
+      <p>At <strong>Uma Makeover & Academy</strong>, we bring high-fashion aesthetics and comprehensive beauty training under one roof.</p>
+      <p>From personalized bridal looks to rejuvenating hair and skincare treatments, we focus on enhancing your individuality with an emphasis on comfort and care.</p>
+      <div class="features">
+        <div class="feature">
+          <div class="icon">✓</div>
+          <div><strong>Professional Service</strong><span>Carefully planned beauty sessions tailored to you.</span></div>
+        </div>
+        <div class="feature">
+          <div class="icon">★</div>
+          <div><strong>Personal Attention</strong><span>Styles curated to enhance your facial contours.</span></div>
+        </div>
+        <div class="feature">
+          <div class="icon">✦</div>
+          <div><strong>Practical Training</strong><span>Hands-on masterclasses with industry-grade tools.</span></div>
+        </div>
+        <div class="feature">
+          <div class="icon">♥</div>
+          <div><strong>Beauty with Care</strong><span>Hygienic, welcoming, and client-first environment.</span></div>
+        </div>
+      </div>
+      <a href="#contact" class="btn btn-primary">Talk to Our Experts</a>
+    </div>
+  </div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="services-section">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">What We Do</div>
+      <h2>Our Curated Beauty Services</h2>
+      <p>Professional beauty services for everyday elegance, celebrations, and your most unforgettable moments.</p>
+    </div>
+    <div class="cards">
+      <article class="card reveal">
+        <div class="card-img"><div role="img" aria-label="Bridal Makeup Session"></div></div>
+        <div class="card-body">
+          <h3>Bridal Makeup</h3>
+          <p>HD, Airbrush, and destination wedding bridal looks designed to match your outfit and personal elegance.</p>
+          <a href="#contact" class="card-cta">Book Bridal Consult →</a>
+        </div>
+      </article>
+
+      <article class="card reveal">
+        <div class="card-img"><div role="img" aria-label="Hair Styling & Dressing"></div></div>
+        <div class="card-body">
+          <h3>Hair Styling</h3>
+          <p>Creative braids, contemporary updos, texture curls, and premium hair spa treatments.</p>
+          <a href="#contact" class="card-cta">Explore Styles →</a>
+        </div>
+      </article>
+
+      <article class="card reveal">
+        <div class="card-img"><div role="img" aria-label="Facial & Skin Care"></div></div>
+        <div class="card-body">
+          <h3>Facial & Skin Care</h3>
+          <p>Hydrating and purifying skin treatments engineered to restore your natural glow and suppleness.</p>
+          <a href="#contact" class="card-cta">View Treatments →</a>
+        </div>
+      </article>
+
+      <article class="card reveal">
+        <div class="card-img"><div role="img" aria-label="Beauty Courses"></div></div>
+        <div class="card-body">
+          <h3>Beauty Courses</h3>
+          <p>Master the latest makeup artistry, client consultation, and styling techniques with structured certificates.</p>
+          <a href="#academy" class="card-cta">View Curriculum →</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Gallery Section -->
+<section id="gallery" class="gallery-section">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">Our Work</div>
+      <h2>Beauty Gallery</h2>
+      <p>A glimpse into the artistry, studio transformations, and student achievements at Uma Makeover & Academy.</p>
+    </div>
+
+    <div class="gallery-filters reveal">
+      <button class="filter-btn active" onclick="filterGallery('all', this)">All</button>
+      <button class="filter-btn" onclick="filterGallery('makeup', this)">Makeups</button>
+      <button class="filter-btn" onclick="filterGallery('studio', this)">Studio</button>
+      <button class="filter-btn" onclick="filterGallery('academy', this)">Academy</button>
+    </div>
+
+    <div class="gallery-grid reveal">
+      <div class="gallery-item g1" data-cat="makeup" onclick="openLightbox(this)">
+        <img src="https://www.dropbox.com/scl/fi/kptnhw49k2x7mx968b41r/okay.jpeg?rlkey=gnirdo7ybxyenerd9arwm7mrc&st=c4qbxoyv&raw=1" alt="Bridal glam look" loading="lazy">
+        <div class="gallery-overlay"><span>Glamour & Bridal Makeup</span></div>
+      </div>
+      <div class="gallery-item g2" data-cat="studio" onclick="openLightbox(this)">
+        <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=800&q=85" alt="Beauty products & makeup palette" loading="lazy">
+        <div class="gallery-overlay"><span>Premium Formulations</span></div>
+      </div>
+      <div class="gallery-item g3" data-cat="studio" onclick="openLightbox(this)">
+        <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=800&q=85" alt="Salon styling chairs" loading="lazy">
+        <div class="gallery-overlay"><span>Modern Studio Space</span></div>
+      </div>
+      <div class="gallery-item g4" data-cat="academy" onclick="openLightbox(this)">
+        <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=1000&q=85" alt="Academy students learning styling" loading="lazy">
+        <div class="gallery-overlay"><span>Masterclass Training</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Lightbox Modal -->
+<div class="lightbox" id="imageLightbox" onclick="closeLightbox(event)" role="dialog" aria-modal="true" aria-label="Image Preview">
+  <div class="lightbox-content">
+    <button class="lightbox-close" onclick="closeLightbox(event)" aria-label="Close Lightbox">✕</button>
+    <img id="lightboxImg" src="" alt="Expanded View">
+  </div>
+</div>
+
+<!-- Academy Section -->
+<section id="academy" class="academy">
+  <div class="container academy-grid">
+    <div class="reveal">
+      <div class="eyebrow">Uma Beauty Academy</div>
+      <h2>Learn skills that turn passion into confidence.</h2>
+      <p>Explore practical beauty training designed for aspiring professionals who want to master high-demand styling, portfolio building, and client handling.</p>
+      <div class="course-list">
+        <div class="course">
+          <b>Professional Makeup</b>
+          <span>Color theory, contouring & HD techniques</span>
+        </div>
+        <div class="course">
+          <b>Bridal Makeup Mastery</b>
+          <span>Traditional & contemporary bridal art</span>
+        </div>
+        <div class="course">
+          <b>Hair Styling & Dressing</b>
+          <span>High-fashion updos & thermal textures</span>
+        </div>
+        <div class="course">
+          <b>Beauty & Skincare Science</b>
+          <span>Skin analysis, facials & skin prep</span>
+        </div>
+      </div>
+      <a class="btn btn-primary" href="#contact">Enquire About Courses</a>
+    </div>
+    <div class="academy-img reveal" role="img" aria-label="Uma Beauty Academy Practical Training"></div>
+  </div>
+</section>
+
+<!-- Testimonials Section -->
+<section class="testimonials">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">Client Feedback</div>
+      <h2>Loved by Our Clients & Students</h2>
+      <p>Read real stories from our bridal clients and academy graduates.</p>
+    </div>
+
+    <div class="testimonial-carousel-wrap reveal">
+      <div class="testimonial-slide active">
+        <div class="test-stars">★★★★★</div>
+        <p class="test-quote">"Uma Makeover made my wedding day completely magical! My makeup lasted flawlessly throughout the entire evening, looking natural yet royal."</p>
+        <div class="test-author">
+          <strong>Pooja Sharma</strong>
+          <span>Bridal Client</span>
+        </div>
+      </div>
+
+      <div class="testimonial-slide">
+        <div class="test-stars">★★★★★</div>
+        <p class="test-quote">"The hands-on training at Uma Academy gave me the confidence to launch my own freelance makeup artistry career. The step-by-step guidance is unbeatable!"</p>
+        <div class="test-author">
+          <strong>Neha Verma</strong>
+          <span>Academy Graduate</span>
+        </div>
+      </div>
+
+      <div class="testimonial-slide">
+        <div class="test-stars">★★★★★</div>
+        <p class="test-quote">"Exceptional hygiene, luxurious environment, and artists who truly listen to what you want. My go-to salon for all family occasions!"</p>
+        <div class="test-author">
+          <strong>Ananya Saxena</strong>
+          <span>Regular Client</span>
+        </div>
+      </div>
+
+      <div class="test-controls">
+        <button class="test-dot active" onclick="setSlide(0)" aria-label="Testimonial 1"></button>
+        <button class="test-dot" onclick="setSlide(1)" aria-label="Testimonial 2"></button>
+        <button class="test-dot" onclick="setSlide(2)" aria-label="Testimonial 3"></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ Section -->
+<section class="faq-section">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">Questions & Answers</div>
+      <h2>Frequently Asked Questions</h2>
+      <p>Everything you need to know about our makeover appointments and academy sessions.</p>
+    </div>
+
+    <div class="faq-container reveal">
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          How far in advance should I book my bridal makeup?
+          <span>+</span>
+        </button>
+        <div class="faq-answer">
+          We recommend booking your bridal slot at least 2 to 4 months in advance, especially during the peak wedding season, to secure your preferred dates and artists.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          Are certificates provided after completing the academy courses?
+          <span>+</span>
+        </button>
+        <div class="faq-answer">
+          Yes! All academy courses conclude with practical portfolio assessments, professional evaluations, and verified course completion certificates.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          Do you provide trial sessions before finalizing bridal makeup?
+          <span>+</span>
+        </button>
+        <div class="faq-answer">
+          Yes, we offer tailored paid trial sessions to test looks, base formulas, and hair arrangements tailored directly to your skin tone and event attire.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact & Booking Section -->
+<section id="contact" class="contact">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">Get In Touch</div>
+      <h2>Let's Create Your Look</h2>
+      <p>Send us your enquiry for appointments, bridal packages, or academy enrollments.</p>
+    </div>
+    
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <h3>We'd love to hear from you.</h3>
+        <p>Use the form or contact Uma Makeover & Academy directly for availability, schedules, and custom pricing.</p>
+        
+        <div class="info">
+          <div class="info-icon">☎</div>
+          <div>
+            <strong>Phone & WhatsApp</strong>
+            <span>+91 99111 38156</span>
+          </div>
+        </div>
+
+        <div class="info">
+          <div class="info-icon">✉</div>
+          <div>
+            <strong>Email Enquiries</strong>
+            <span>umamakeover@example.com</span>
+          </div>
+        </div>
+
+        <div class="info">
+          <div class="info-icon">⌖</div>
+          <div>
+            <strong>Studio Location</strong>
+            <span>Delhi, India</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-wrapper reveal">
+        <form class="form" id="contactForm" action="https://formspree.io/f/mgvnndvn" method="POST">
+          <div class="row">
+            <div class="form-group">
+              <input type="text" name="name" placeholder="Your Name" required aria-label="Your Name">
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" placeholder="Your Email" required aria-label="Your Email">
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="form-group">
+              <input type="tel" name="phone" placeholder="Phone Number" required aria-label="Phone Number">
+            </div>
+            <div class="form-group">
+              <select name="service" required aria-label="Select Desired Service">
+                <option value="" disabled selected>Select Service / Course</option>
+                <option value="Bridal Makeup">Bridal Makeup</option>
+                <option value="Hair Styling">Hair Styling</option>
+                <option value="Skin & Facial Care">Skin & Facial Care</option>
+                <option value="Academy Courses">Academy Courses</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <textarea name="message" placeholder="Tell us about your requirements or event date..." required aria-label="Message"></textarea>
+          </div>
+
+          <button class="btn btn-primary" type="submit" style="width: 100%;">Send Enquiry ✦</button>
+          <div id="formStatus" class="form-status"></div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Call to Action Banner -->
+<section class="cta">
+  <div class="container reveal">
+    <h2>Ready for your next beautiful look?</h2>
+    <p>Book a makeover or enquire about our professional academy courses today.</p>
+    <a href="#contact" class="btn btn-primary">Contact Uma Makeover</a>
+  </div>
+</section>
+</main>
+
+<!-- Footer -->
+<footer>
+  <div class="footer-grid">
+    <div>
+      <h3>Uma Makeover & Academy</h3>
+      <p>Professional beauty services, premier bridal makeovers, and accredited practical beauty education — all curated to build elegance and confidence.</p>
+    </div>
+    <div>
+      <h3>Quick Links</h3>
+      <a href="#about">About Us</a>
+      <a href="#services">Beauty Services</a>
+      <a href="#social-hub">Instagram & YouTube</a>
+      <a href="#gallery">Client Gallery</a>
+      <a href="#academy">Academy Courses</a>
+    </div>
+    <div>
+      <h3>Social & Contact</h3>
+      <a href="https://www.instagram.com/uma_makeover_and_academy_104?utm_source=ig_web_button_share_sheet&igsi=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">Instagram Profile</a>
+      <a href="https://youtube.com/@umamakeoverandacademy?si=cdeq-fgTTBvo14sQ" target="_blank" rel="noopener noreferrer">YouTube Channel</a>
+      <a href="https://wa.me/9911138156" target="_blank" rel="noopener noreferrer">WhatsApp Support</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    © <span id="year"></span> Uma Makeover & Academy. All rights reserved.
+  </div>
+</footer>
+
+<!-- Floating Action Buttons -->
+<aside class="floating-actions" aria-label="Quick Actions">
+  <a href="https://wa.me/919911138156" target="_blank" rel="noopener noreferrer" class="float-btn whatsapp-btn" aria-label="Chat on WhatsApp">💬</a>
+  <button class="float-btn scroll-top-btn" id="scrollTopBtn" onclick="window.scrollTo({top:0, behavior:'smooth'})" aria-label="Back to top">↑</button>
+</aside>
+
+<!-- External Script -->
+<script src="script.js"></script>
+</body>
+</html>
